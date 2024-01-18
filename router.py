@@ -28,7 +28,8 @@ async def startHandler(message: Message):
 
 @router.message(Command('anecdote'))
 async def anecdoteHandler(message: Message):
-    await message.answer(parse_anec()) 
+    # await message.answer(parse_anec()) 
+    await message.answer("Пока что не выучил, но скоро будут!")
 
 # @router.message(Command('speech'))
 # async def forawardHandler(message: Message):
