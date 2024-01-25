@@ -4,7 +4,6 @@ from pathlib import Path
 from aiogram import F, Bot, Router
 from aiogram.filters import Command
 from aiogram.types import Message, User, ContentType, File
-import speech_recognition as sr
 
 import texts
 import config
